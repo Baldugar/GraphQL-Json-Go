@@ -1,0 +1,74 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+_stuff
+
+# dependencies
+**node_modules**
+.next**
+.pnp.js
+.history
+
+# client 
+client/build
+client/.history
+client/coverage
+client/.nyc_output
+client/nohup.out
+client/.env
+client/.eslintcache
+client/cypress/screenshots
+!/client/.env.dist
+client/tsconfig.tsbuildinfo
+client/cypress.json
+
+# downloaded s3 assets, see getStaticPaths in cmsPage
+client/public/cms
+
+
+# nextJS
+client/.pnp
+client/coverage
+client/.next/
+client/out/**
+client/build
+client/.DS_Store
+client/*.pem
+client/.env
+client/.vercel
+client/node_modules
+
+
+# arangodb
+arangodb/arangodb
+
+
+# server
+# TODO: ADD THIS WHEN GITLAB NOTICES THAT THE EXECUTABLE IS NOT THERE ANYMORE server/rockboard
+server/nohup.out
+server/next
+server/thorn.exe
+server/thorn
+server/settings.development.json
+server/logs
+
+
+# misc
+.history
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+_stuff
+
+*.gitconfig
+
+arangodb/arangodb**
+arangodb/backup
+arangodb/dumps
+client/node_modules**
+
+# debug
+**npm-debug.log**
+**yarn-debug.log**
+**yarn-error.log**

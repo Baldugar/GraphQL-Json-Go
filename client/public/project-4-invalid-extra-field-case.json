@@ -1,0 +1,17 @@
+{
+    "title": "Office Renovation",
+    "description": "Renovation of the marketing department's office space",
+    "members": [
+        {
+            "name": "Dave",
+            "role": "Interior Designer"
+        }
+    ],
+    "tasks": [
+        {
+            "description": "Select new office furniture",
+            "status": "Pending Approval"
+        }
+    ],
+    "budget": 5000
+}

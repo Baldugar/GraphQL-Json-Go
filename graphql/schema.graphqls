@@ -1,0 +1,38 @@
+scalar Map
+
+enum ModelFieldEnum {
+  STRING
+  INT
+  FLOAT
+  BOOLEAN
+  ARRAY
+  OBJECT
+}
+
+type ModelField {
+  name: String!
+  type: ModelFieldEnum!
+  isNullable: Boolean!
+  subFields: [ModelField!]
+}
+
+input ModelFieldInput {
+  name: String!
+  type: ModelFieldEnum!
+  isNullable: Boolean!
+  subFields: [ModelFieldInput!]
+}
+
+type Model {
+  name: String!
+  fields: [ModelField!]!
+}
+
+type Query {
+  getModels: [Model!]!
+  sendInformaton(info: Map!, modelName: String!): Boolean!
+}
+
+type Mutation {
+  createModel(name: String!, fields: [ModelFieldInput!]!): Model!
+}

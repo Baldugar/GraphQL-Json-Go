@@ -1,0 +1,10 @@
+{
+    "name": "John Doe",
+    "age": "thirty",
+    "isSubscriber": true,
+    "contacts": [
+        {
+            "email": "john.doe@example.com"
+        }
+    ]
+}

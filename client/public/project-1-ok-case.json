@@ -1,0 +1,24 @@
+{
+    "title": "New Website Launch",
+    "description": "Project to launch new corporate website by Q3.",
+    "members": [
+        {
+            "name": "Alice",
+            "role": "Project Manager"
+        },
+        {
+            "name": "Bob",
+            "role": "Developer"
+        }
+    ],
+    "tasks": [
+        {
+            "description": "Design the homepage layout",
+            "status": "Completed"
+        },
+        {
+            "description": "Develop the user login flow",
+            "status": "In Progress"
+        }
+    ]
+}

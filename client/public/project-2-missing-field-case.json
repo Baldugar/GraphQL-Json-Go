@@ -1,0 +1,15 @@
+{
+    "title": "Software Development",
+    "description": "Agile development of CRM software",
+    "members": [
+        {
+            "role": "Lead Developer"
+        }
+    ],
+    "tasks": [
+        {
+            "description": "Implement OAuth2 authentication",
+            "status": "Not Started"
+        }
+    ]
+}
